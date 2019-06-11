@@ -1,8 +1,5 @@
-style.css
 body {
-	background-color: black;
-}
-
-h1, p {
-	color: gold;
+	color: blue;
+	background-color: #cccccc;
+	font font-family: Arial, sans-serif;
 }
