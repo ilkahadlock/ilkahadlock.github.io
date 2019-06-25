@@ -1,13 +1,5 @@
 body {
-  text-align: center;
-  background color: pink;
-  background-size: cover;
-  color: #fff;
-  font-family: Raleway;
-}
-hr {
-  width: 200px;
-}
-p {
-  font-size: 22px;
+	color: white;
+	background-color: #eeb0b7;
+	font-family: courier, courier-new,serif;
 }
