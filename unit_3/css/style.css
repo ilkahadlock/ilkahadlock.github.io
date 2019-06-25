@@ -1,5 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+}
 body {
 	color: white;
 	background-color: #eeb0b7;
 	font-family: courier, courier-new,serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: rgba(255,255,255,.5);
+	font-family: courier, courier-new,serif;
+	font-size: 30px;
 }
