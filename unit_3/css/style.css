@@ -1,5 +1,10 @@
 body {
-	color: white;
-	background-color: #eeb0b7;
-	font-family: courier, courier-new,serif;
+  background: url("linen_texture.jpg");
+  background-size: cover;
+}
+hr {
+  width: 200px;
+}
+p {
+  font-size: 22px;
 }
