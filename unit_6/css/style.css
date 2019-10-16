@@ -61,33 +61,41 @@ color: #ef483e;
 .column {
 	float: left;
 	width: 260px;
-  	height: 300px;
+  	height: 500px;
 	padding: 20px;
 }
 
 #column1 {
-  background-color: #000;
+  width: 20%;
 }
 
 #column2 {
-  background-color: #5485FF;
+  width: 20%;
+  border-color: #ef483e;
 }
 
 #column3 {
-  background-color: #47FFF2;
+  width: 20%;
+  border-color: #ef483e;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 header {
     background-color: #FFED74;
-    border: 1px black solid;
     padding: 20px;
 }
 article {
     background-color: #E89C6C;
-    border: 1px black solid;
     padding: 20px;
 }
 footer {
-    background-color: black;
     padding: 20px;
 }
