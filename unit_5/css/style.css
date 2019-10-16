@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #36454f;
+	font-family: 'DM Sans', sans-serif, bold;
+	font-weight: 500;
+	font-style: bold;
+	font-size: 20px;
+	text-align: center;
+	padding:10px;
+	padding-top: 50px;
+}
+
+h1 {
+	color: rgb(255,255,255);
+	font-family: mr-eaves-modern, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 40px;
+}
+h2 {
+	color: #dd463c;
+	font-family: 'Gibbs Book', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+a {
+  color: #dd463c;
+	font-family: mr-eaves-sans, sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	font-style: italic;
+}
+img {width: 100%; display:block;}
+#logo {width:100%; max-width: 250px; padding: 10px; margin:0 auto;}
+
+img {width: 100%; display:block;}
+#ilka {width:100%; max-width: 350px; padding: 10px; margin:0 auto;}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
