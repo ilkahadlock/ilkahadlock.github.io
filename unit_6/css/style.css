@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #36454f;
+	font-family: 'DM Sans', sans-serif, bold;
+	font-weight: 500;
+	font-style: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1 {
+	color: rgb(255,255,255);
+	font-family: mr-eaves-modern, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 40px;
+}
+h2 {
+	color: #dd463c;
+	font-family: 'Gibbs Book', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+img {width: 100%; display:block;}
+#logo {width:100%; max-width: 250px; padding: 10px; margin:0 auto;}
+
+img {width: 100%; display:block;}
+#ilka {width:100%; max-width: 350px; padding: 10px; margin:0 auto;}
+
+nav {
+  background-color: #f7afb8;
+  font-family: DM Sans, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase; 
+  text-align: left;
+  float: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 5px;
+  margin: 1.8em;
+}
+
+a:hover {
+color: #ef483e;
+}
+
+
+.column {
+	float: left;
+	width: 260px;
+  	height: 300px;
+	padding: 20px;
+}
+
+#column1 {
+  background-color: #000;
+}
+
+#column2 {
+  background-color: #5485FF;
+}
+
+#column3 {
+  background-color: #47FFF2;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+    background-color: black;
+    padding: 20px;
+}
