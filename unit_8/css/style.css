@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #36454f;
+	font-family: 'DM Sans', sans-serif, bold;
+	font-weight: 500;
+	font-style: bold;
+	font-size: 1em;
+	text-align: center;
+}
+
+h1 {
+	color: rgb(255,255,255);
+	font-family: mr-eaves-modern, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: .5em;
+}
+h2 {
+	color: #dd463c;
+	font-family: 'Gibbs Book', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+img {width: 100%; display:block;}
+#logo {width:25%; max-width: 200px; padding: 10px; margin:0 auto;}
+
+img {width: 100%; display:block;}
+#ilka {width:100%; max-width: 350px; padding: 10px; margin:0 auto;}
+
+nav {
+  background-color: black;
+  font-family: DM Sans, sans-serif;
+  font-weight: bold;
+  font-size: 1em
+;
+  text-transform: uppercase; 
+  text-align: center;
+  float: center;
+}
+
+a {
+  color: #f7afb8;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  margin: 1.8em;
+}
+
+a:hover {
+color: #ef483e;
+}
+
+
+.column {
+	float: left;
+	width: 260px;
+  	height: 500px;
+	padding: 20px;
+}
+
+#column1 {
+  width: 33.33%;
+  padding:4em;
+}
+
+#column2 {
+  width: 33.33%;
+  padding:4em;
+}
+
+#column3 {
+  width: 33.33%;
+  padding:4em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #column1, #column2, #column3 {
+    float: none;
+    width: auto;
+  }
+
+}
+h1, h2 {
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  float: left;
+  margin: 0;
+}
+
+div {
+  align-content: center;
+  padding: 1em;
+  background-color: #ededec;
+}
+
+header {
+    background-color: #dddedb;
+    padding: 1em;
+}
+article {
+    background-color: #f5f6f5;
+    padding: 1em;
+}
+footer {
+    padding: 0em;
+    background-color: black;
+}
