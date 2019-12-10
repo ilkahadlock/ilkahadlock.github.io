@@ -29,7 +29,7 @@ h2 {
 }
 
 img {width: 100%; display:block;}
-#logo {width:25%; max-width: 200px; padding: 10px; margin:0 auto;}
+#logo {width:100%; max-width: 350px; padding: 10px; margin:0 auto;}
 
 img {width: 100%; display:block;}
 #ilka {width:100%; max-width: 350px; padding: 10px; margin:0 auto;}
@@ -54,9 +54,8 @@ a {
 }
 
 a:hover {
-color: #ef483e;
+color: #ef483e; 
 }
-
 
 .column {
 	float: left;
@@ -114,7 +113,7 @@ div {
 }
 
 header {
-    background-color: #dddedb;
+    background-color: #white;
     padding: 1em;
 }
 article {
